@@ -1,0 +1,17 @@
+[project]
+name = "codeagentcreater"
+version = "0.1.0"
+description = "Интеллектуальный агент для генерации прототипов приложений по текстовому запросу."
+authors = [
+    {name = "igornet0"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers (>=4.53.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
